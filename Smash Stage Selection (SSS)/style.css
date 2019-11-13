@@ -1,0 +1,355 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("back.jpg");
+}
+
+.title {
+    color: rgb(214, 163, 23);
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.4;
+}
+
+.gentRules {
+    position: absolute;
+    border-radius: 25px;
+    top: 3%;
+    right: 3%;
+}
+
+.reloadBtn {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.backBtn {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.backBtn2 {
+    position: absolute;
+    bottom: 5%;
+    left: 43%;
+    width: 150px;
+    border-radius: 25px;
+}
+
+
+/***** BIG BOX FROM UDEMY COURSE *****/
+
+.wrapper {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.main_box {
+    width: 1000px;
+    float: left;
+    height: 500px;
+    padding: 50px 80px;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+
+/*** TITLE PAGE CSS ***/
+
+#titlePageTitle {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 5%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: crimson;
+}
+
+#nextPg {
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    bottom: 25%;
+    left: 35%;
+    border-radius: 25px;
+}
+
+
+/***** EXTRA CSS FOR OTHER PAGES *****/
+
+#gentRulesP {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 45%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.textList {
+    position: absolute;
+    transform: translateX(-50%);
+    right: 1%;
+    bottom: 5%;
+    color: rgb(94, 35, 2);
+    text-transform: uppercase;
+}
+
+
+/***** RULE SELECTORS *****/
+
+#ruleSelector1 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    padding: 20px 20px;
+    /*top: 20%;*/
+    top: 50%;
+    left: 20%;
+    /*background-image: url('genesis6.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;*/
+    background-position: center;
+    background-color: #fdeded;
+    border-radius: 25px;
+}
+
+#ruleSelector2 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    padding: 20px 20px;
+    /*top: 20%;*/
+    top: 50%;
+    /*left: 60%;*/
+    right: 20%;
+    background-color: #fdeded;
+    border-radius: 25px;
+}
+
+#ruleSelector3 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    padding: 20px 20px;
+    top: 60%;
+    left: 20%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+#ruleSelector4 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    padding: 20px 20px;
+    top: 60%;
+    left: 60%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+
+/***** OVERLAY *****/
+
+.overlay {
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+/***** MAPS *****/
+
+.map1 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 20%;
+    left: 10%;
+    border-radius: 25px;
+}
+
+.map2 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 20%;
+    left: 30%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map3 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 20%;
+    left: 50%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map4 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 20%;
+    left: 70%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map5 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 40%;
+    left: 10%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map6 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 40%;
+    left: 30%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map7 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 40%;
+    left: 50%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map8 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 40%;
+    left: 70%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map9 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 60%;
+    left: 30%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+.map10 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 60%;
+    left: 50%;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+}
+
+
+/***** GENESIS 6 MAPS *****/
+
+.battlefield {
+    background-image: url("battlefield.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smashville {
+    background-image: url("smashville.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pokeStadium2 {
+    background-image: url("pokeStadium2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finalDestination {
+    background-image: url("finalDestination.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.unovaPkmnLeague {
+    background-image: url("unovaPkmnLeague.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.castleSiege {
+    background-image: url("castleSiege.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.townAndCity {
+    background-image: url("townAndcity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yoshiStory {
+    background-image: url("yoshiStory.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kalosPkmnLeague {
+    background-image: url("kalosPkmnLeague.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yoshiIsland {
+    background-image: url("yoshiIsland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
